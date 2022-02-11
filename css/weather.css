@@ -1,0 +1,41 @@
+/* body,html{
+    height: 100%;
+} */
+/* .bgImage{
+    background-image: url('/images/bg-image.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+body{
+    background-image: url('/images/bg-image.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    text-align: center;
+}
+
+.search-section{
+    display: flex;
+    justify-content: center;
+}
+#inputId{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn{
+    background-color: #dc3545;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.weather-div{
+    text-align: center;
+    color: white;
+}
+
